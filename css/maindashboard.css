@@ -1,0 +1,109 @@
+.maindashboard_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ede8ea;
+}
+/*html{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}*/
+/*.nav_container{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100px;
+    background-color: black;
+     color: #FF4F5A;
+     #c9cfda
+}*/
+.maindashboard_nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    box-shadow:  0 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    
+          
+    
+}
+.maindashboard_nav .maindashboard_ul{
+    margin-top: 0;
+    margin-left: 50px;
+    background-color: white;
+
+}
+.maindashboard_nav .maindashboard_ul .maindashboard_li{
+    margin-top: 35px; 
+    margin-left: 50px;
+    padding: 5px 25px;
+    list-style-type: none ;
+    display: inline-block;
+    justify-content: center;
+    color:  #c9cfda;
+    font-weight: 600;
+    font-size: x-large;
+    background-color: white;
+    border: 2px #c9cfda;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+    
+}
+
+.maindashboard_nav .maindashboard_ul .maindashboard_li:hover{
+    border-radius: 15px;
+    border:1px solid #c9cfda;
+    
+}
+
+
+
+.maindashboard_main .maindashboard_ul .maindashboard_li{
+    list-style-type: none;
+    display: inline-block;
+   
+    
+    
+    
+}
+.maindashboard_Container{
+    margin-top: 25px ;
+    margin-left: 150px;
+    padding: 0;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #c9cfda;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.maindashboard_Container:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.maindashboard_Container .maindashboard_h2{
+    margin: 80px;
+    text-align: center;
+    background-color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    color:  #FF4F5A;
+}
+.maindashboard_main_btn{
+   
+    background-color: #c9cfda;
+    color: black;
+    width: 100%;
+    height: 50px;
+    font-size: medium;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+
+}
+
